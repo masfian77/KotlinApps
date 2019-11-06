@@ -1,78 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
-            android:background="@drawable/background2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <ImageView android:layout_width="match_parent"
-                   android:layout_height="200dp"
-                   android:padding="30dp"
-                   android:src="@drawable/dsc"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:orientation="vertical">
 
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="30dp"
+            android:src="@drawable/dsc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
             <TextView
-                    android:text="Login"
-                    android:gravity="right"
-                    android:textSize="25sp"
-                    android:layout_marginRight="20dp"
-                    android:textColor="@android:color/white"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
         </LinearLayout>
     </LinearLayout>
 
-    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:hint="Email"
-              android:drawableLeft="@android:drawable/ic_dialog_email"
-              android:drawableTint="@android:color/darker_gray"
-              android:layout_margin="20dp"
-              android:inputType="textEmailAddress"
-    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
 
-    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
-              android:hint="Password"
-              android:inputType="textPassword"
-              android:drawableLeft="@android:drawable/ic_lock_idle_lock"
-              android:drawableTint="@android:color/darker_gray"
-              android:layout_marginRight="20dp"
-              android:layout_marginLeft="20dp"
-     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <TextView
-                android:text="Forgot Password"
-                android:gravity="right"
-                android:textSize="15sp"
-                android:layout_marginRight="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:text="Forgot Password"
+            android:textSize="15sp" />
 
 
     </LinearLayout>
 
     <Button
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="LOGIN"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/background"
-            android:textColor="@android:color/white"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/background"
+        android:text="LOGIN"
+        android:textColor="@android:color/white" />
 
-    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                  android:text="@string/don_t_have_account_register"
-                  android:layout_centerHorizontal="true"
-                  android:layout_marginBottom="20dp"
-                  android:layout_alignParentBottom="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/don_t_have_account_register" />
 
     </RelativeLayout>
 
